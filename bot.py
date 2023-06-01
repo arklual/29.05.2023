@@ -36,7 +36,7 @@ async def on_new_message_1(client, message:Message):
         else:
             await app.send_message(send_to_1, text)
 
-@app.on_message(filters.chat(send_to_2))
+@app.on_message(filters.chat(posts_from_2))
 async def on_new_message_2(client, message:Message):
     print(2)
     if date.today().weekday() > 4:
