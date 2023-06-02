@@ -112,7 +112,7 @@ async def on_new_message_3(client, message:Message):
             await app.send_message(send_to_3, text)
 
 @app.on_message(filters.chat(posts_from_4))
-async def on_new_message_1(client, message:Message):
+async def on_new_message_4(client, message:Message):
     if date.today().weekday() > 3:
         return
     if datetime.now(zone).hour < 9 or datetime.now(zone).hour > 11:
