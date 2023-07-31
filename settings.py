@@ -1,7 +1,7 @@
-send_to_1 = -1001864855509
-send_to_2 = -1001864855509
-send_to_3 = -1001572722578
-send_to_4 = -1001572722578
+send_to_1 = -1001669436583
+send_to_2 = -1001669436583
+send_to_3 = -1001635036981
+send_to_4 = 'binari_signals'
 posts_from_1 = 'binarsignal'
 posts_from_2 = -1001280819525
 posts_from_3 = -1001280819525

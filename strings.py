@@ -51,7 +51,8 @@ STOP_MESSAGE = '''
 START_ENG_MESSAGE = '''
 Hi all!👋🏻
 We will start trading soon.
-Don't forget to follow the instructions👇🏻'''
+Don't forget to follow the instructions👇🏻
+https://teletype.in/@mh_trade_info/MHtrade_instructions_for_trading_by_signals'''
 
 SOON_MESSAGE = '''
 This concludes the trading session.
@@ -83,7 +84,8 @@ In the second level for 2 minutes
 TESTING_MESSAGE = '''
 Hi all!👋🏻
 We will start trading soon.
-Don't forget to follow the instructions👇🏻'''
+Don't forget to follow the instructions👇🏻
+https://teletype.in/@mh_trade_info/MHtrade_instructions_for_trading_by_signals'''
 
 STOPING_MESSAGE = '''
 Let's end this trade!
@@ -92,7 +94,9 @@ If you liked the signals and want to receive
 even more of them, then write in private messages
 "I WANT TO TEAM"
 
-✍️Write here -
+✍️Write here - @mhtrade_signals_bo
 
 By joining the team you will receive 15 signals
 per day from Monday to Saturday!'''
+
+MINUTE_MESSAGE = "Let's start trading in a minute"
