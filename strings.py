@@ -100,3 +100,5 @@ By joining the team you will receive 15 signals
 per day from Monday to Saturday!'''
 
 MINUTE_MESSAGE = "Let's start trading in a minute"
+CLOSED_MESSAGE = "The trading pair was closed. Let's consider another"
+FIVE_MINUTES_MESSAGE = "Forecast coming in 5 minutes"
