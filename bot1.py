@@ -59,6 +59,12 @@ async def on_new_message_3(client, message:Message):
     elif 'минутная' in text.lower():
         await app.send_message(send_to_3, MINUTE_MESSAGE)
         return
+    elif 'закрыли' in text.lower():
+        await app.send_message(send_to_3, CLOSED_MESSAGE)
+        return
+    elif '5 минут' in text.lower():
+        await app.send_message(send_to_3, FIVE_MINUTES_MESSAGE)
+        return
     else:
         if file_id:
             await app.send_photo(send_to_3, file_id, text)
@@ -111,6 +117,12 @@ async def on_new_message_4(client, message:Message):
         return
     elif 'минутная' in text.lower():
         await app.send_message(send_to_4, MINUTE_MESSAGE)
+        return
+    elif 'закрыли' in text.lower():
+        await app.send_message(send_to_4, CLOSED_MESSAGE)
+        return
+    elif '5 минут' in text.lower():
+        await app.send_message(send_to_4, FIVE_MINUTES_MESSAGE)
         return
     else:
         if file_id:
